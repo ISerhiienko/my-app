@@ -1,12 +1,17 @@
 import { Routes, Route,Link  } from "react-router-dom";
-import './index.scss';
+import './styles/index.scss';
 import { AboutPageLazy } from "./pages/AboutPage/AboutPage.lazy";
 import { MainPageLazy } from "./pages/MainPage/MainPageLazy";
 import { Suspense } from 'react';
+import {useTheme} from "./theme/useTheme";
 
 export const App = () => {
+  const {theme, toggleTheme} = useTheme();
+
   return (
-    <div className="app">
+    <div className={`app ${theme}`}>
+       <button onClick={toggleTheme}>TOGGLE</button>
+
       <Link to="/">Main page</Link>
       <Link to="/about ">About site</Link>
 
