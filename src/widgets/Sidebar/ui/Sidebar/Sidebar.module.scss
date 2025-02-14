@@ -12,8 +12,13 @@
 }
 
 .switchers {
+  display: flex;
   position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.lang {
+  margin-left: 20px;
 }

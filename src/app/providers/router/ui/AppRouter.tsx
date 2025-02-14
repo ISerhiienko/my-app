@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { routeConfig } from "shared/config/routeConfig/routeConfig";
 import { Suspense } from "react";
 
-export default function AppRouter() {
+export default function AppRouter(): JSX.Element {
   return (
     <Suspense fallback={<div>loading...</div>}>
       <Routes>
