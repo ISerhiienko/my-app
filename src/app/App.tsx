@@ -11,7 +11,7 @@ export const App = (): JSX.Element => {
 
   return (
     <div className={classNames("app", {}, [theme])}>
-      <Suspense fallback="loading...">
+      <Suspense fallback="...">
         <Navbar />
         <div className="content-page">
           <Sidebar />
