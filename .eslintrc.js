@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   extends: ["plugin:react/recommended", "plugin:i18next/recommended"],
   parser: "@typescript-eslint/parser",
@@ -31,6 +32,7 @@ module.exports = {
     "no-underscore-dangle": "off",
     "i18next/no-literal-string": ["error", { markupOnly: true }],
     "react/no-deprecated": "off",
+    ignoreComments: true,
   },
   globals: {
     __IS_DEV__: true,
