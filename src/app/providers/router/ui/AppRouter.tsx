@@ -3,7 +3,7 @@ import { routeConfig } from "shared/config/routeConfig/routeConfig";
 import { Suspense } from "react";
 import { PageLoader } from "shared/ui/PageLoader/PageLoader";
 
-export default function AppRouter(): JSX.Element {
+export default function AppRouter() {
   return (
     <Routes>
       {Object.values(routeConfig).map(({ element, path }) => (

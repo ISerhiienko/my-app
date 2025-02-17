@@ -1,12 +1,12 @@
-import { useTheme } from "./providers/ThemeProvider";
+import { Suspense } from "react";
 import { classNames } from "shared/lib/classNames/classNames";
-import { AppRouter } from "./providers/router";
 import { Navbar } from "widgets/Navbar";
-import "./styles/index.scss";
 import { Sidebar } from "widgets/Sidebar";
-import { Suspense, useEffect } from "react";
+import { useTheme } from "./providers/ThemeProvider";
+import { AppRouter } from "./providers/router";
+import "./styles/index.scss";
 
-export const App = (): JSX.Element => {
+export const App = () => {
   const { theme } = useTheme();
 
   return (

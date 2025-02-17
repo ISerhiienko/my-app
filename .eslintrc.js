@@ -4,7 +4,12 @@ module.exports = {
     es2021: true,
     jest: true,
   },
-  extends: ["plugin:react/recommended", "airbnb", "plugin:i18next/recommended"],
+  extends: [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:i18next/recommended",
+    "plugin:storybook/recommended"
+  ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
@@ -15,7 +20,7 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint", "i18next"],
   rules: {
-    quotes: [2, "backtick", "double"],
+    quotes: [2, "double"],
     "react/jsx-indent": [2, 2],
     "react/jsx-indent-props": [2, 2],
     indent: [2, 2],
@@ -38,10 +43,11 @@ module.exports = {
       "error",
       {
         markupOnly: true,
-        ignoreAttribute: ["data-testid"],
+        ignoreAttribute: ["data-testid", "to"],
       },
     ],
-    "max-len": ["error", { ignoreComments: true, code: 100 }],
+    "max-len": ["error", { ignoreComments: true, code: 120 }],
+    "react/jsx-wrap-multilines": "off",
   },
   globals: {
     __IS_DEV__: true,
