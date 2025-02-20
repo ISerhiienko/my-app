@@ -6,7 +6,7 @@ export default function MainPage() {
 
   return (
     <div>
-      <BugButton />
+      {/* <BugButton /> */}
       {t("Головна")}
     </div>
   );
