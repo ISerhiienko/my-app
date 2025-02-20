@@ -1,9 +1,10 @@
 {
   "Тестовий приклад": "test example",
   "Переклад": "Translate",
-  "Українська": "English",
+  "Мова": "English",
   "Сторінка не знайдена": "Page not found",
   "Відбулася непередбачена помилка": "An unexpected error occurred",
   "Оновити сторінку": "Refresh the page",
-  "Перемикач": "Toggle"
+  "Перемикач": "Toggle",
+  "Скорочено мова": "Eng"
 }
