@@ -1,4 +1,9 @@
 {
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
+    " Aliquid commodi consequatur eligendi impedit incidunt necessitatibus possimus quis saepe sunt totam": {
+      "": ""
+    }
+  },
   "throw error": "throw error",
   "Відбулася непередбачена помилка": "Відбулася непередбачена помилка",
   "Головна": "Головна",
@@ -8,5 +13,6 @@
   "Про сайт": "Про сайт",
   "Произошла непредвиденная ошибка": "Произошла непредвиденная ошибка",
   "Сторінка не знайдена": "Сторінка не знайдена",
+  "Увійти": "Увійти",
   "Українська": "Українська"
 }
