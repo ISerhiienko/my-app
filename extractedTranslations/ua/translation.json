@@ -4,6 +4,8 @@
       "": ""
     }
   },
+  "decrement": "decrement",
+  "increment": "increment",
   "throw error": "throw error",
   "Відбулася непередбачена помилка": "Відбулася непередбачена помилка",
   "Головна": "Головна",

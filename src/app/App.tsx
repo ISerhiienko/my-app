@@ -5,12 +5,10 @@ import { Sidebar } from "widgets/Sidebar";
 import { useTheme } from "./providers/ThemeProvider";
 import { AppRouter } from "./providers/router";
 import "./styles/index.scss";
-import { Modal } from "shared/ui/Modal/Modal";
+import { Counter } from "entities/Counter";
 
 export const App = () => {
   const { theme } = useTheme();
-
-  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className={classNames("app", {}, [theme])}>
@@ -18,6 +16,7 @@ export const App = () => {
         <Navbar />
         <div className="content-page">
           <Sidebar />
+          <Counter />
           <AppRouter />
         </div>
       </Suspense>
