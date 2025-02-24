@@ -33,12 +33,26 @@ module.exports = {
     "no-unused-vars": "warn",
     "react/require-default-props": "off",
     "react/react-in-jsx-scope": "off",
-    "react/jsx-props-no-spreading": "warn",
+    "react/jsx-props-no-spreading": "off",
     "react/function-component-definition": "off",
     "no-shadow": "off",
     "import/extensions": "off",
     "import/no-extraneous-dependencies": "off",
     "no-underscore-dangle": "off",
+    "object-curly-newline": [
+      "error",
+      {
+        multiline: true,
+        consistent: true,
+      },
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        props: true,
+        ignorePropertyModificationsFor: ["state"],
+      },
+    ],
     "i18next/no-literal-string": [
       "error",
       {
@@ -47,7 +61,7 @@ module.exports = {
       },
     ],
     "max-len": ["error", { ignoreComments: true, code: 120 }],
-    "react/jsx-wrap-multilines": "on",
+    "react/jsx-wrap-multilines": "off",
     "jsx-a11y/no-static-element-interactions": "off",
     "jsx-a11y/click-events-have-key-events": "off",
     "react-hooks/rules-of-hooks": "error",

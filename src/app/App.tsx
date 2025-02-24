@@ -1,11 +1,11 @@
-import { Suspense, useState } from "react";
+import { Suspense } from "react";
 import { classNames } from "shared/lib/classNames/classNames";
 import { Navbar } from "widgets/Navbar";
 import { Sidebar } from "widgets/Sidebar";
+import { Counter } from "entities/Counter";
 import { useTheme } from "./providers/ThemeProvider";
 import { AppRouter } from "./providers/router";
 import "./styles/index.scss";
-import { Counter } from "entities/Counter";
 
 export const App = () => {
   const { theme } = useTheme();
