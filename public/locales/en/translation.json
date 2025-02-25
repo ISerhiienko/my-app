@@ -7,5 +7,7 @@
   "Оновити сторінку": "Refresh the page",
   "Перемикач": "Toggle",
   "Скорочено мова": "Eng",
-  "Увійти": "Login"
+  "Увійти": "Login",
+  "input_login": "Enter login",
+  "input_password": "Enter password"
 }
