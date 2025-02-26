@@ -8,6 +8,8 @@
   "Перемикач": "Toggle",
   "Скорочено мова": "Eng",
   "Увійти": "Login",
-  "input_login": "Enter login",
-  "input_password": "Enter password"
+  "Логін": "Enter login",
+  "Пароль": "Enter password",
+  "Форма авторизації": "Authorization form",
+  "Вийти": "Logout"
 }

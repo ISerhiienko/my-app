@@ -39,6 +39,7 @@ module.exports = {
     "import/extensions": "off",
     "import/no-extraneous-dependencies": "off",
     "no-underscore-dangle": "off",
+    "operator-linebreak": ["warn", "before"],
     "object-curly-newline": [
       "error",
       {
