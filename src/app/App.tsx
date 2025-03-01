@@ -23,7 +23,7 @@ export const App = () => {
         <Navbar />
         <div className="content-page">
           <Sidebar />
-          <Counter />
+          {/* <Counter /> */}
           <AppRouter />
         </div>
       </Suspense>

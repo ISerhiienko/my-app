@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Name",
+    "lastname": "Surname",
+    "age": 99,
+    "currency": "USD",
+    "country": "New Zealand",
+    "city": "Oakland",
+    "username": "admin",
+    "avatar": "https://avatar.iran.liara.run/public/13"
+  }
 }
