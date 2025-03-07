@@ -10,6 +10,15 @@
     ]
   ],
   "plugins": [
-    "i18next-extract"
+    "i18next-extract",
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "entities": "./src/entities"
+        }
+      }
+    ]
   ]
 }

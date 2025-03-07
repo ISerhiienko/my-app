@@ -12,40 +12,40 @@ interface SidebarProps {
 }
 
 export const Sidebar = memo(({ className }: SidebarProps) => {
-  const [collapsed, setCollapsed] = useState(false);
+    const [collapsed, setCollapsed] = useState(false);
 
-  const onToggle = () => setCollapsed((prev) => !prev);
+    const onToggle = () => setCollapsed((prev) => !prev);
 
-  const itemsList = useMemo(() => SidebarItemsList.map((item) => (
-    <SidebarItem key={item.path} item={item} collapsed={collapsed} />
-  )), [collapsed]);
+    const itemsList = useMemo(() => SidebarItemsList.map((item) => (
+        <SidebarItem key={item.path} item={item} collapsed={collapsed} />
+    )), [collapsed]);
 
-  return (
-    <div
-      data-testid="sidebar"
-      className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [
-        className,
-      ])}
-    >
-      <Button
-        data-testid="sidebar-toggle"
-        onClick={onToggle}
-        className={cls.collapseBtn}
-        theme={ButtonTheme.BACKGROUND_INVERTED}
-        size={ButtonSize.L}
-        square
-      >
-        {collapsed ? ">" : "<"}
-      </Button>
+    return (
+        <div
+            data-testid="sidebar"
+            className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [
+                className,
+            ])}
+        >
+            <Button
+                data-testid="sidebar-toggle"
+                onClick={onToggle}
+                className={cls.collapseBtn}
+                theme={ButtonTheme.BACKGROUND_INVERTED}
+                size={ButtonSize.L}
+                square
+            >
+                {collapsed ? ">" : "<"}
+            </Button>
 
-      <div className={cls.items}>
-        {itemsList}
-      </div>
+            <div className={cls.items}>
+                {itemsList}
+            </div>
 
-      <div className={cls.switchers}>
-        <ThemeSwitcher />
-        <LangSwitcher short={collapsed} className={cls.lang} />
-      </div>
-    </div>
-  );
+            <div className={cls.switchers}>
+                <ThemeSwitcher />
+                <LangSwitcher short={collapsed} className={cls.lang} />
+            </div>
+        </div>
+    );
 });

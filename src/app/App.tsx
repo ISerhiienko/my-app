@@ -1,32 +1,31 @@
-import { Suspense, useEffect } from "react";
-import { useDispatch } from "react-redux";
+import React, { Suspense, useEffect } from "react";
 import { classNames } from "shared/lib/classNames/classNames";
+import { useTheme } from "app/providers/ThemeProvider";
+import { AppRouter } from "app/providers/router";
 import { Navbar } from "widgets/Navbar";
 import { Sidebar } from "widgets/Sidebar";
-import { Counter } from "entities/Counter";
+import { useDispatch } from "react-redux";
 import { userActions } from "entities/User";
-import { useTheme } from "./providers/ThemeProvider";
-import { AppRouter } from "./providers/router";
-import "./styles/index.scss";
 
-export const App = () => {
-  const { theme } = useTheme();
-  const dispatch = useDispatch();
+function App() {
+    const { theme } = useTheme();
+    const dispatch = useDispatch();
 
-  useEffect(() => {
-    dispatch(userActions.initAuthData());
-  }, [dispatch]);
+    useEffect(() => {
+        dispatch(userActions.initAuthData());
+    }, [dispatch]);
 
-  return (
-    <div className={classNames("app", {}, [theme])}>
-      <Suspense fallback="...">
-        <Navbar />
-        <div className="content-page">
-          <Sidebar />
-          {/* <Counter /> */}
-          <AppRouter />
+    return (
+        <div className={classNames("app", {}, [theme])}>
+            <Suspense fallback="">
+                <Navbar />
+                <div className="content-page">
+                    <Sidebar />
+                    <AppRouter />
+                </div>
+            </Suspense>
         </div>
-      </Suspense>
-    </div>
-  );
-};
+    );
+}
+
+export default App;

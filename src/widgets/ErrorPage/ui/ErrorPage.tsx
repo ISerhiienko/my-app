@@ -8,17 +8,17 @@ interface ErrorPageProps {
 }
 
 export const ErrorPage = ({ className }: ErrorPageProps) => {
-  const { t } = useTranslation();
+    const { t } = useTranslation();
 
-  const reloadPage = () => {
+    const reloadPage = () => {
     // eslint-disable-next-line no-restricted-globals
-    location.reload();
-  };
+        location.reload();
+    };
 
-  return (
-    <div className={classNames(cls.ErrorPage, {}, [className])}>
-      <p>{t("Відбулася непередбачена помилка")}</p>
-      <Button onClick={reloadPage}>{t("Оновити сторінку")}</Button>
-    </div>
-  );
+    return (
+        <div className={classNames(cls.ErrorPage, {}, [className])}>
+            <p>{t("Відбулася непередбачена помилка")}</p>
+            <Button onClick={reloadPage}>{t("Оновити сторінку")}</Button>
+        </div>
+    );
 };
