@@ -1,4 +1,5 @@
 import { getUserAuthData } from "./model/selectors/getUserAuthData/getUserAuthData";
+import { getUserInited } from "./model/selectors/getUserInited/getUserInited";
 import {
     userReducer,
     userActions,
@@ -10,6 +11,7 @@ import {
 
 export {
     getUserAuthData,
+    getUserInited,
     userReducer,
     userActions,
     UserSchema,
