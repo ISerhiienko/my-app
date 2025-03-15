@@ -50,7 +50,7 @@ const article: Article = {
             ],
         },
     ],
-};
+} as Article;
 
 export const Normal = Template.bind({});
 Normal.args = {};
