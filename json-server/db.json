@@ -155,6 +155,174 @@
           ]
         }
       ]
+    },
+    {
+      "id": "3",
+      "title": "title 3",
+      "subtitle": "React frontend library",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 142,
+      "createdAt": "18.03.2025",
+      "userId": "2",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block Title",
+          "paragraphs": [
+            "The program traditionally called 'Hello, world!' is very simple. It outputs the phrase 'Hello, world!' or something similar, using some programming language.",
+            "JavaScript is a language that can be executed in different environments. In our case, it refers to browsers and the Node.js server platform. If you haven't written a single line of JS code and are reading this text in a browser on a desktop computer, it means you are just seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. For regular use of JavaScript programs, they are loaded into the browser to enable the operation of web pages. Typically, the code is written as separate files with the .js extension, which are linked to web pages, but the program code can also be included directly in the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. For more details about the script tag, you can check out w3school.com. In particular, let's look at an example demonstrating interaction with a web page using JavaScript, provided on this resource. This example can also be run using the provided resource (look for the 'Try it Yourself' button), but we will do it a bit differently. Specifically, we will create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html, and add the following code to it:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "title 4",
+      "subtitle": "React frontend library",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 142,
+      "createdAt": "20.03.2025",
+      "userId": "2",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block Title",
+          "paragraphs": [
+            "The program traditionally called 'Hello, world!' is very simple. It outputs the phrase 'Hello, world!' or something similar, using some programming language.",
+            "JavaScript is a language that can be executed in different environments. In our case, it refers to browsers and the Node.js server platform. If you haven't written a single line of JS code and are reading this text in a browser on a desktop computer, it means you are just seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. For regular use of JavaScript programs, they are loaded into the browser to enable the operation of web pages. Typically, the code is written as separate files with the .js extension, which are linked to web pages, but the program code can also be included directly in the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. For more details about the script tag, you can check out w3school.com. In particular, let's look at an example demonstrating interaction with a web page using JavaScript, provided on this resource. This example can also be run using the provided resource (look for the 'Try it Yourself' button), but we will do it a bit differently. Specifically, we will create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html, and add the following code to it:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "title 5",
+      "subtitle": "React frontend library",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 142,
+      "createdAt": "18.03.2025",
+      "userId": "2",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block Title",
+          "paragraphs": [
+            "The program traditionally called 'Hello, world!' is very simple. It outputs the phrase 'Hello, world!' or something similar, using some programming language.",
+            "JavaScript is a language that can be executed in different environments. In our case, it refers to browsers and the Node.js server platform. If you haven't written a single line of JS code and are reading this text in a browser on a desktop computer, it means you are just seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. For regular use of JavaScript programs, they are loaded into the browser to enable the operation of web pages. Typically, the code is written as separate files with the .js extension, which are linked to web pages, but the program code can also be included directly in the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. For more details about the script tag, you can check out w3school.com. In particular, let's look at an example demonstrating interaction with a web page using JavaScript, provided on this resource. This example can also be run using the provided resource (look for the 'Try it Yourself' button), but we will do it a bit differently. Specifically, we will create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html, and add the following code to it:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "title 6",
+      "subtitle": "React frontend library",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 142,
+      "createdAt": "18.03.2025",
+      "userId": "2",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block Title",
+          "paragraphs": [
+            "The program traditionally called 'Hello, world!' is very simple. It outputs the phrase 'Hello, world!' or something similar, using some programming language.",
+            "JavaScript is a language that can be executed in different environments. In our case, it refers to browsers and the Node.js server platform. If you haven't written a single line of JS code and are reading this text in a browser on a desktop computer, it means you are just seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. For regular use of JavaScript programs, they are loaded into the browser to enable the operation of web pages. Typically, the code is written as separate files with the .js extension, which are linked to web pages, but the program code can also be included directly in the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. For more details about the script tag, you can check out w3school.com. In particular, let's look at an example demonstrating interaction with a web page using JavaScript, provided on this resource. This example can also be run using the provided resource (look for the 'Try it Yourself' button), but we will do it a bit differently. Specifically, we will create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html, and add the following code to it:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "title 7",
+      "subtitle": "React frontend library",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 142,
+      "createdAt": "18.03.2025",
+      "userId": "2",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block Title",
+          "paragraphs": [
+            "The program traditionally called 'Hello, world!' is very simple. It outputs the phrase 'Hello, world!' or something similar, using some programming language.",
+            "JavaScript is a language that can be executed in different environments. In our case, it refers to browsers and the Node.js server platform. If you haven't written a single line of JS code and are reading this text in a browser on a desktop computer, it means you are just seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. For regular use of JavaScript programs, they are loaded into the browser to enable the operation of web pages. Typically, the code is written as separate files with the .js extension, which are linked to web pages, but the program code can also be included directly in the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. For more details about the script tag, you can check out w3school.com. In particular, let's look at an example demonstrating interaction with a web page using JavaScript, provided on this resource. This example can also be run using the provided resource (look for the 'Try it Yourself' button), but we will do it a bit differently. Specifically, we will create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html, and add the following code to it:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "title 8",
+      "subtitle": "React frontend library",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 142,
+      "createdAt": "18.03.2025",
+      "userId": "2",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block Title",
+          "paragraphs": [
+            "The program traditionally called 'Hello, world!' is very simple. It outputs the phrase 'Hello, world!' or something similar, using some programming language.",
+            "JavaScript is a language that can be executed in different environments. In our case, it refers to browsers and the Node.js server platform. If you haven't written a single line of JS code and are reading this text in a browser on a desktop computer, it means you are just seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. For regular use of JavaScript programs, they are loaded into the browser to enable the operation of web pages. Typically, the code is written as separate files with the .js extension, which are linked to web pages, but the program code can also be included directly in the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. For more details about the script tag, you can check out w3school.com. In particular, let's look at an example demonstrating interaction with a web page using JavaScript, provided on this resource. This example can also be run using the provided resource (look for the 'Try it Yourself' button), but we will do it a bit differently. Specifically, we will create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html, and add the following code to it:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "title 9",
+      "subtitle": "React frontend library",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 142,
+      "createdAt": "18.03.2025",
+      "userId": "2",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block Title",
+          "paragraphs": [
+            "The program traditionally called 'Hello, world!' is very simple. It outputs the phrase 'Hello, world!' or something similar, using some programming language.",
+            "JavaScript is a language that can be executed in different environments. In our case, it refers to browsers and the Node.js server platform. If you haven't written a single line of JS code and are reading this text in a browser on a desktop computer, it means you are just seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. For regular use of JavaScript programs, they are loaded into the browser to enable the operation of web pages. Typically, the code is written as separate files with the .js extension, which are linked to web pages, but the program code can also be included directly in the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. For more details about the script tag, you can check out w3school.com. In particular, let's look at an example demonstrating interaction with a web page using JavaScript, provided on this resource. This example can also be run using the provided resource (look for the 'Try it Yourself' button), but we will do it a bit differently. Specifically, we will create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html, and add the following code to it:"
+          ]
+        }
+      ]
     }
   ],
   "comments": [

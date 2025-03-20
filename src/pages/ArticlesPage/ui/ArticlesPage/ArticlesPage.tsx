@@ -5,11 +5,14 @@ import { DynamicModuleLoader, ReducersList } from "shared/lib/components/Dynamic
 import { useAppDispatch } from "shared/lib/hooks/useAppDispatch/useAppDispatch";
 import { useInitialEffect } from "shared/lib/hooks/useInitialEffect/useInitialEffect";
 import { useSelector } from "react-redux";
+import { Page } from "shared/ui/Page/Page";
+import { fetchNextArticlesPage } from "pages/ArticlesPage/model/services/fetchNextArticlesPage/fetchNextArticlesPage";
+import { useTranslation } from "react-i18next";
 import {
     getArticlesPageError,
     getArticlesPageIsLoading,
     getArticlesPageView,
-} from "pages/ArticlesPage/model/selectors/articlesPageSelectors";
+} from "../../model/selectors/articlesPageSelectors";
 import { fetchArticlesList } from "../../model/services/fetchArticlesList/fetchArticlesList";
 import cls from "./ArticlesPage.module.scss";
 import { articlesPageActions, articlesPageReducer, getArticles } from "../../model/slices/articlesPageSlice";
@@ -24,6 +27,7 @@ const reducers: ReducersList = {
 
 const ArticlesPage = (props: ArticlesPageProps) => {
     const { className } = props;
+    const { t } = useTranslation();
 
     const dispatch = useAppDispatch();
     const articles = useSelector(getArticles.selectAll);
@@ -35,21 +39,30 @@ const ArticlesPage = (props: ArticlesPageProps) => {
         dispatch(articlesPageActions.setView(view));
     }, [dispatch]);
 
+    const onLoadNextPart = useCallback(() => {
+        dispatch(fetchNextArticlesPage());
+    }, [dispatch]);
+
     useInitialEffect(() => {
-        dispatch(fetchArticlesList());
         dispatch(articlesPageActions.initState());
+        dispatch(fetchArticlesList({
+            page: 1,
+        }));
     });
 
     return (
         <DynamicModuleLoader reducers={reducers}>
-            <div className={classNames(cls.ArticlesPage, {}, [className])}>
+            <Page onScrollEnd={onLoadNextPart} className={classNames(cls.ArticlesPage, {}, [className])}>
+                {error && (
+                    <div>{t("Виникла помилка при завантаженні данних")}</div>
+                )}
                 <ArticleViewSelector view={view} onViewClick={onChangeView} />
                 <ArticleList
                     isLoading={isLoading}
                     view={view}
                     articles={articles}
                 />
-            </div>
+            </Page>
         </DynamicModuleLoader>
     );
 };
