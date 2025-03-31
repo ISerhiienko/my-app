@@ -8,7 +8,6 @@ import { getUIScrollByPath, uiActions } from "features/UI";
 import { useLocation } from "react-router-dom";
 import { useInitialEffect } from "shared/lib/hooks/useInitialEffect/useInitialEffect";
 import { useSelector } from "react-redux";
-import { getUIScroll } from "features/UI/model/selectors/ui";
 import { StateSchema } from "app/providers/StoreProvider";
 import { useThrottle } from "shared/lib/hooks/useThrottle/useThrottle";
 import cls from "./Page.module.scss";
@@ -51,7 +50,7 @@ export const Page = memo((props: PageProps) => {
             onScroll={onScroll}
         >
             {children}
-            <div ref={triggerRef} />
+            {onScrollEnd ? <div ref={triggerRef} className={cls.trigger} /> : null }
         </section>
     );
 });
