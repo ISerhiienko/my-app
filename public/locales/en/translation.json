@@ -11,6 +11,14 @@
   "Логін": "Enter login",
   "Пароль": "Enter password",
   "Форма авторизації": "Authorization form",
+  "зростанням": "ascending",
+  "зменшенням": "descending",
   "Вийти": "Logout",
-  "даті створенню": "даті створенню"
+  "даті створенню": "date creation",
+  "переглядам": "views",
+  "Сортувати ПО": "Sort by",
+  "по": "by",
+  "Редагування статті з ID = ": "Editing an article from ID = ",
+  "Створення нової статті": "Creating a new article",
+  "Створити статтю": "Create an article [...]"
 }
