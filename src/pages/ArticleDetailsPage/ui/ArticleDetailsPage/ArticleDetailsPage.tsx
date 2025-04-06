@@ -11,10 +11,10 @@ import { useInitialEffect } from "shared/lib/hooks/useInitialEffect/useInitialEf
 import { AddCommentForm } from "features/addCommentForm";
 import { useAppDispatch } from "shared/lib/hooks/useAppDispatch/useAppDispatch";
 import { Page } from "widgets/Page/Page";
-import { articleDetailsPageReducer } from "pages/ArticleDetailsPage/model/slices";
 import {
     ArticleDetailsPageHeader,
-} from "pages/ArticleDetailsPage/ui/ArticleDetailsPageHeader/ArticleDetailsPageHeader";
+} from "../ArticleDetailsPageHeader/ArticleDetailsPageHeader";
+import { articleDetailsPageReducer } from "../../model/slices";
 import { fetchCommentsByArticleId } from "../../model/services/fetchCommentsByArticleId/fetchCommentsByArticleId";
 import { addCommentForArticle } from "../../model/services/addCommentForArticle/addCommentForArticle";
 import cls from "./ArticleDetailsPage.module.scss";

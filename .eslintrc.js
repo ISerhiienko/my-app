@@ -22,6 +22,7 @@ module.exports = {
         "@typescript-eslint",
         "i18next",
         "react-hooks",
+        "ulbi-tv-plugin",
     ],
     rules: {
         quotes: [2, "double"],
@@ -37,7 +38,7 @@ module.exports = {
         "no-unused-vars": "off",
         "react/require-default-props": "off",
         "react/react-in-jsx-scope": "off",
-        "react/jsx-props-no-spreading": "warn",
+        "react/jsx-props-no-spreading": "off",
         "react/function-component-definition": "off",
         "no-shadow": "off",
         "import/extensions": "off",
@@ -50,7 +51,7 @@ module.exports = {
                 ignoreAttribute: ["data-testid", "to", "target"],
             },
         ],
-        "max-len": ["error", { ignoreComments: true, code: 120 }],
+        "max-len": ["error", { ignoreComments: true, code: 130 }],
         "jsx-a11y/no-static-element-interactions": "off",
         "jsx-a11y/click-events-have-key-events": "off",
         "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
@@ -58,6 +59,7 @@ module.exports = {
         "no-param-reassign": "off",
         "no-undef": "off",
         "react/no-array-index-key": "off",
+        "ulbi-tv-plugin/path-checker": "error",
     },
     globals: {
         __IS_DEV__: true,
